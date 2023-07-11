@@ -1,0 +1,15 @@
+net\javacrud\springboot\config\SecurityConfiguration.class
+net\javacrud\springboot\controller\EmployeeController.class
+net\javacrud\springboot\repository\EmployeeRepository.class
+net\javacrud\springboot\dto\UserRegistrationDto.class
+net\javacrud\springboot\controller\UserRegistrationController.class
+net\javacrud\springboot\controller\MainController.class
+net\javacrud\springboot\EmployeeManagementWebappApplication.class
+net\javacrud\springboot\model\Role.class
+net\javacrud\springboot\model\User.class
+net\javacrud\springboot\model\Employee.class
+net\javacrud\springboot\repository\UserRepository.class
+net\javacrud\springboot\service\EmployeeService.class
+net\javacrud\springboot\service\EmployeeServiceImpl.class
+net\javacrud\springboot\service\UserService.class
+net\javacrud\springboot\service\UserServiceImpl.class

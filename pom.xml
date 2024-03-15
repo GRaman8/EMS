@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>net.javacrud</groupId>
-	<artifactId>employee-management-webapp</artifactId>
+	<artifactId>Enterprise-management-webapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>employee-management-webapp</name>
+	<name>Enterprise-management-webapp</name>
 	<description>Demo project for Spring Boot Thymeleaf and Hibernate </description>
 
 	<properties>

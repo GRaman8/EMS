@@ -21,9 +21,7 @@ import net.javacrud.springboot.model.User;
 public class UserServiceImpl implements UserService{
 
 	private UserRepository userRepository;
-	
-	@Autowired
-	private BCryptPasswordEncoder passwordEncoder;
+
 	
 	public UserServiceImpl(UserRepository userRepository) {
 		super();
@@ -34,7 +32,7 @@ public class UserServiceImpl implements UserService{
 	public User save(UserRegistrationDto registrationDto) {
 		User user = new User(registrationDto.getFirstName(), 
 				registrationDto.getLastName(), registrationDto.getEmail(),
-				passwordEncoder.encode(registrationDto.getPassword()), Arrays.asList(new Role("ROLE_USER")));
+				registrationDto.getPassword());
 		
 		return userRepository.save(user);
 	}

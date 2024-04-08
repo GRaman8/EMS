@@ -1,3 +1,4 @@
+/*
 package net.javacrud.springboot.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -60,3 +61,4 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	}
 
 }
+*/
